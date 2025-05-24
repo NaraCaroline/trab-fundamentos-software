@@ -1,0 +1,175 @@
+/* ............Fontes............ */
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Pixelify+Sans:wght@400..700&display=swap');
+
+/* ............Layout geral............ */
+body {
+    background-color: #eee9e3; 
+    color: #333;
+    margin: auto;
+    padding: 20px;
+    width: 65%;
+    font-size: 1rem;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* ............Tipografia............ */
+h1 {
+    color: #813e81;
+    text-align: center;
+    font-size: 6rem;
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+}
+
+#p {
+    font-size: 1.5rem; 
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem; 
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* ............Seções............ */
+.hobbies-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin: 4vh auto;
+    width: 80%;
+}
+
+.hobbies-texto {
+    flex: 1;
+    min-width: 250px;
+}
+
+#paises {
+    text-align: center;
+    margin-top: 4vh;
+}
+
+/* ............Listas............ */
+ul {
+    list-style-type: square;
+    line-height: 3; 
+    background-color: white;
+    border-radius: 20px;
+    border-style: groove;
+    width: 65%;
+    padding-left: 2.5vw;
+    margin: 10px auto;
+}
+
+/* ............Imagens............ */
+#hobby {
+    width: 35vw;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0; 
+    box-shadow: #813e81c9 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;   
+}
+
+table img {
+    width: 25vw; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border-radius: 10px;  
+}
+
+/* ............Tabela............ */
+table {
+    min-width: 400px;
+    width: 60%;
+    margin: 20px auto; 
+    box-shadow: #813e81c9 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #9e639e;
+    padding: 12px; 
+    text-align: center;
+}
+
+th {
+    background-color: #ccb1cc; 
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+/* ............Link............ */
+a {
+    color: #9567c0; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+    cursor: pointer;
+}
+
+a:hover {
+    color: #d918ff; 
+    text-decoration: underline; 
+}
+
+/* ............Botões e outros............ */
+#link {
+    padding: 3%;
+    margin-bottom: 10vh;
+    background-color: white;
+    border-radius: 20px;
+    border-style: groove;
+}
+
+#mensagemBtn {
+    background-color: #813e81;
+    color: #fff3fc;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 1.1em;
+    margin-bottom: 3vh;  
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+#mensagemBtn:hover {
+    opacity: 1;
+}
+
+#mensagem {
+    background-color: white;
+    font-size: 19px;
+    width: 20vw;
+    display: block;
+    margin: auto;
+    margin-top: 3vh;
+    padding: 1rem;
+    white-space: pre-wrap;
+    text-align: center;
+    border-radius: 20px;
+    border-style: groove;
+    display: none;
+}
+
+
+
